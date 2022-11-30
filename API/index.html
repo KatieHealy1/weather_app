@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="newmain.js" defer></script>
+<link rel="stylesheet" href="/main.css">
+<title>Weather API</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <center><div class="col-12"><h1>Today's Forecast</h1></div>
+        <form name="weather" id="weather">
+            <div class="col-12"><input type="text" id="search_by_city" placeholder="Search By City"></div>
+            <p></p>
+            <div class="col-12"><button class="btn btn-success mx-3" onclick="load_data()">Get Weather</button></div>
+            <p></p>
+        </form></center>
+        <center><div class="col-4"><section class="list-group weather"></section></div></center>
+    </div>
+  </div>
+      <!-- <div class="card" style="width: 20rem;">
+        <div class="card-header">
+        </div>
+        <ul class="list-group list-group-flush"></ul>
+        <h3 id="city_name"> Current Weather: </h3>
+        <li class="list-group-item">Forecast: ${forecast}</li>
+        <li class="list-group-item">Temp High: ${temp_max}F</li>
+        <li class="list-group-item">Temp Low: ${temp_min}F </li>
+        <li class="list-group-item">Feels Like: ${feels_like}</li>
+        <li class="list-group-item">Humidity: ${humidity} </li>
+        <li class="list-group-item">Pressure: ${pressure}</li>
+        </center> -->
+    
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
